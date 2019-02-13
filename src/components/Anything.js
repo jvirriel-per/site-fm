@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Anything extends Component {
 	render() {
 		return (
@@ -33,7 +32,7 @@ class Anything extends Component {
         </div>
 
       </div>
-				
+
 		)
 	}
 

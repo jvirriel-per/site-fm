@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 
-
 class Navigation extends Component {
 	render() {
 		return (
 	 		<div className ="navbar">
-	 			<div className="row">
+	 			<div className="__navbar-first-row">
 	 				<span> TU LOGO </span>
 	 			</div>
 
-	 			<div className="row2">
+	 			<div className="__navbar-second-row">
 	 			<nav className="navbar navbar-light">
-	 				
+
  					<a href="" className="text-dark">
                       ABOUT
                   	</a>
@@ -27,9 +26,9 @@ class Navigation extends Component {
                   	<a href="" className="account text-dark">
                       OPEN ACCOUNT
                   	</a>
-                </nav> 
-                </div> 	
-	 		</div>			
+                </nav>
+                </div>
+	 		</div>
 		)
 	}
 

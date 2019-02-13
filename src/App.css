@@ -4,7 +4,7 @@
 
 .title{
 	color: #C60000;
-  font-size: 32;
+  font-size: 32px;
 }
 
 strong{
@@ -43,14 +43,7 @@ strong{
   flex-wrap: wrap;
 }
 
-.row {
-  width: 50%;
-  }
 
-.row2 {
-  width: 50%;
-  text-align: left;
-}
 
 h4{
   text-align: left;
@@ -77,4 +70,14 @@ background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 
 background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 0%, rgba(237,237,237,1) 10%, rgba(255,255,255,1) 100%);
 background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 0%, rgba(237,237,237,1) 10%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0 );
+}
+
+@media screen and (max-width: 375px) {
+  .__featuremine-first-box, .title {
+    font-size: 8px;
+  }
+
+  .__featuremine-img, img {
+    width: 100%;
+  }
 }
