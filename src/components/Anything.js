@@ -2,36 +2,35 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Anything = () => (
-  <div>
+  <div className="principal">
     <Row>
-    <Col xs="12" md="5">
-        <div style={{border: '1px solid blue', height: '500px'}}>
+    <Col xs="12" md="6">
+        
         <div className="__featuremine-img">
-            <img src={require('../assets/im4.png')} alt="Test" width= {null} resizeMode= 'contain' height= {420}/>
+            <img src={require('../assets/im4.png')} alt="Test"/>
           </div>
-        </div>
+        
       </Col>
 
-      <Col xs="12" md="7">
-        <div style={{border: '1px solid red', height: '500px'}}>
+      <Col xs="12" md="6">
+        
           <div className="__Anything-first-box">
               <p className="title"><strong>Custom feeds</strong></p>
-              <h1><strong><p>Anything goes in, </p>
-              and out.</strong>
-              </h1>
-              <p className="text-1">You want to use a particular market data feeds
-             handler, order entry session or a custom OMS, 
-             problem, we will make it happen. We will work with
-             your broker or your OMS provider to certify our
-             platform with their FIX connection. We provide
-             input/output interface for some standard data types
-             and our extendable platform makes it easy to
-             integrate a custom data source or to publish logs or
-             other data to a platform of your choice. You
+              <p className="second-title"><strong>Anything goes in,<br/>
+              and out.</strong></p>
+              <p className="text-1">You want to use a particular market data feeds<br/>
+             handler, order entry session or a custom OMS,<br/> 
+             problem, we will make it happen. We will work with<br/>
+             your broker or your OMS provider to certify our<br/>
+             platform with their FIX connection. We provide<br/>
+             input/output interface for some standard data types<br/>
+             and our extendable platform makes it easy to<br/>
+             integrate a custom data source or to publish logs or<br/>
+             other data to a platform of your choice. You<br/>
              extend it yourself or we can help you do it.</p>
 
           </div>
-        </div>
+        
       </Col>
 
     </Row>
