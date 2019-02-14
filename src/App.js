@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import './main.js';
 
 import Navigation from './components/Navigation';
 import Featuremine from './components/Featuremine';
