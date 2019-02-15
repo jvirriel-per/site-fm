@@ -1,26 +1,38 @@
-import React from 'react';
-//import ScrollNavbar from '../assets/navbar';
+import React, { Component } from 'react';
 
-import Logo from '../assets/Logo-SVG-01.svg';
+import Logo from '../assets/logo_blue.svg';
 
 
-const Navigation = () => (
-<nav className="navbar">
-  <div className="nav-container">
-      <div className="brand">
-        <img src={Logo} alt="FeatureMine"/>
-      </div>
-      <div className="links">
-        <ul>
-          <li><a id="link-to-research" href="#research"> ABOUT </a></li>
-          <li><a id="link-to-trading" href="#trading"> PRODUCT </a></li>
-          <li><a id="link-to-services" href="#services"> PRICING </a></li>
-          <li className="bordered"><a> LOGIN </a></li>
-          <li className="bordered2"><a> OPEN ACCOUNT </a></li>
-        </ul>
-      </div>
-  </div>
-</nav>
-);
+class Navigation extends Component {
+
+    render() {
+    function responsive() {
+      let x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+        return (
+            <div className="topnav" id="myTopnav">
+           
+                <img src={Logo} alt="FeatureMine"/>
+      
+                <a href="#home" class="active">
+                    OPEN ACCOUNT
+                </a>
+                <a href="#news">LOGIN</a>
+                <a href="#contact">PRICING</a>
+                <a href="#about">PRODUCT</a>
+                <a href="#about">ABOUT</a>
+                <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
+                    <i className="fa fa-bars" />
+                </a>
+            </div>
+        );
+    }
+}
 
 export default Navigation;
