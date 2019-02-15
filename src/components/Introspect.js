@@ -7,7 +7,7 @@ const Introspect = () => (
     
       <Col xs="12" md="6">
         
-          <div className="Introspect-first-box">
+          <div className="introspect-first-box">
               <p className="title"><strong>Monitoring</strong></p>
               <p className="second-title"><strong>Introspect <br/>
               everything.</strong></p>
@@ -28,8 +28,8 @@ const Introspect = () => (
 
       <Col xs="12" md="6">
         
-        <div className="__Introspect-img">
-            <img src={require('../assets/im7.png')} alt="Test"/>
+        <div className="__introspect-img">
+            <img className="__introspect-img-children" src={require('../assets/im7.png')} alt="Test"/>
           </div>
         
       </Col>

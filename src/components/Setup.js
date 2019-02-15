@@ -7,7 +7,7 @@ const Setup = () => (
       
       <Col xs="12" md="6">
         
-          <div className="Setup-first-box">
+          <div className="setup-first-box">
               <p className="title"><strong>Python integration</strong></p>
               <p className="second-title"><strong>Setup in <br/> 
               Python, run in.</strong></p>
@@ -30,8 +30,8 @@ const Setup = () => (
       
       <Col xs="12" md="6">
         
-        <div className="__Setup-img">
-            <img src={require('../assets/im3.png')} alt="Test"/>
+        <div className="__setup-img">
+            <img className="__setup-img-children" src={require('../assets/im3.png')} alt="Test"/>
           </div>
         
       </Col>

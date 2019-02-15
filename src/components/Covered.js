@@ -6,15 +6,15 @@ const Covered = () => (
     <Row>
     <Col xs="12" md="6">
         
-        <div className="__Covered-img">
-            <img src={require('../assets/im6.png')} alt="Test"/>
+        <div className="__covered-img">
+            <img className="__covered-img-children" src={require('../assets/im6.png')} alt="Test"/>
           </div>
         
       </Col>
 
       <Col xs="12" md="6">
         
-          <div className="Covered-first-box">
+          <div className="covered-first-box">
               <p className="title"><strong>Risk Controls</strong></p>
               <p className="second-title"><strong>We got you <br/>
               covered.</strong></p>

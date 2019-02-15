@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-  border: 1px #000000 solid;
+  border: 2px #000000 solid;
 }
 
 .topnav .icon {
@@ -107,14 +107,64 @@ img{
 
  .principal{
      padding-top: 80px;
-     padding-bottom: 200px;
+     padding-bottom: 150px;
      padding-left: 50px;
  }
 
- .__featuremine-img img{
-   display: flex;
-   flex-wrap: wrap;
+ .__anything-img-children{
+  width: 920px;
+  padding-right: 260px;
+
+}
+
+ .__featuremine-img-children{
+   width: 920px;
+   padding-right: 250px;
+
  }
+
+ .__covered-img-children{
+   width: 700px;
+   padding-right: 50px;
+   padding-top: 30px;
+
+ }
+
+ .__ecosystem-img-children{
+   width: 700px;
+   padding-right: 20px;
+   padding-top: 45px;
+
+ }
+
+ .__introspect-img-children{
+  width: 750px;
+  padding-right: 20px;
+
+ }
+
+ .__modular-img-children{
+   width: 670px;
+   padding-right: 50px;
+   padding-top: 18px;
+
+ }
+
+ .__research-img-children{
+   width: 700px;
+   padding-right: 50px;
+
+ }
+
+ .__setup-img-children{
+   width: 720px;
+   padding-right: 120px;
+   padding-top: 80px;
+
+ }
+
+
+
 
 .principal{
 background: rgba(242,242,242,1);

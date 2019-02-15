@@ -7,7 +7,7 @@ const Research = () => (
       
       <Col xs="12" md="6">
         
-          <div className="Research-first-box">
+          <div className="research-first-box">
               <p className="title"><strong>Data analytic tools</strong></p>
               <p className="second-title"><strong>Reasearch or <br/>
               prod, same</strong></p>
@@ -29,8 +29,8 @@ const Research = () => (
       </Col>
       
       <Col xs="12" md="6">
-        <div className="__Research-img">
-            <img src={require('../assets/im5.png')} alt="Test"/>
+        <div className="__research-img">
+            <img className="__research-img-children" src={require('../assets/im5.png')} alt="Test"/>
           </div>
         
       </Col>

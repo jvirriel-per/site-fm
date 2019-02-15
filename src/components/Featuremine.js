@@ -31,7 +31,7 @@ const Featuremine = () => (
       <Col xs="12" md="6">
         
         <div className="__featuremine-img">
-            <img src={require('../assets/im1.png')} alt="Test"/>
+            <img className="__featuremine-img-children" src={require('../assets/im1.png')} alt="Test"/>
           </div>
         
       </Col>

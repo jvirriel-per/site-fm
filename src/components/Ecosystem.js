@@ -6,15 +6,15 @@ const Ecosystem = () => (
     <Row>
     <Col xs="12" md="6">
         
-        <div className="__Ecosystem-img">
-            <img src={require('../assets/im8.png')} alt="Test"/>
+        <div className="__ecosystem-img">
+            <img className="__ecosystem-img-children" src={require('../assets/im8.png')} alt="Test"/>
           </div>
         
       </Col>
 
       <Col xs="12" md="6">
         
-          <div className="Ecosystem-first-box">
+          <div className="ecosystem-first-box">
               <p className="title"><strong>Feedback</strong></p>
               <p className="second-title"><strong>Ecosystem <br/>
               evolves with you</strong></p>

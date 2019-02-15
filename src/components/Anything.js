@@ -6,15 +6,15 @@ const Anything = () => (
     <Row>
     <Col xs="12" md="6">
         
-        <div className="__featuremine-img">
-            <img src={require('../assets/im4.png')} alt="Test"/>
+        <div className="__anything-img">
+            <img className="__anything-img-children" src={require('../assets/im4.png')} alt="Test"/>
           </div>
         
       </Col>
 
       <Col xs="12" md="6">
         
-          <div className="__Anything-first-box">
+          <div className="__anything-first-box">
               <p className="title"><strong>Custom feeds</strong></p>
               <p className="second-title"><strong>Anything goes in,<br/>
               and out.</strong></p>
