@@ -1,33 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+//import ScrollNavbar from '../assets/navbar';
 
-class Navigation extends Component {
+import Logo from '../assets/Logo-SVG-01.svg';
 
-    render() {
-    function responsive() {
-      let x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
 
-        return (
-            <div className="topnav" id="myTopnav">
-                <a href="#home" className="active">
-                    LOGO
-                </a>   
-                <a href="#news">ABOUT</a>
-                <a href="#contact">PRODUCT</a>
-                <a href="#about">PRICING</a>
-                <a href="#about">LOGIN</a>
-                <a href="#about" className="openAccount">OPEN ACCOUNT</a>
-                <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
-                    <i className="fa fa-bars" />
-                </a>
-            </div>    
-        );
-    }
-}
+const Navigation = () => (
+<nav className="navbar">
+  <div className="nav-container">
+      <div className="brand">
+        <img src={Logo} alt="FeatureMine"/>
+      </div>
+      <div className="links">
+        <ul>
+          <li><a id="link-to-research" href="#research"> ABOUT </a></li>
+          <li><a id="link-to-trading" href="#trading"> PRODUCT </a></li>
+          <li><a id="link-to-services" href="#services"> PRICING </a></li>
+          <li className="bordered"><a> LOGIN </a></li>
+          <li className="bordered2"><a> OPEN ACCOUNT </a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+);
 
 export default Navigation;
