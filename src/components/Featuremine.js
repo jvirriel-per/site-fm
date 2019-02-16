@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Featuremine = () => (
   <div className="principal">
@@ -31,7 +31,7 @@ const Featuremine = () => (
       <Col xs="12" md="6">
         
         <div className="__featuremine-img">
-            <img className="__featuremine-img-children" src={require('../assets/im1.png')} alt="Test"/>
+            <img className="__featuremine-img-children" src={require('../assets/im1.png')}/>
           </div>
         
       </Col>

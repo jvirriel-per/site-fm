@@ -112,53 +112,53 @@ img{
  }
 
  .__anything-img-children{
-  width: 920px;
-  padding-right: 260px;
+  width: 650px;
+/*  padding-right: 260px;*/
 
 }
 
  .__featuremine-img-children{
-   width: 920px;
-   padding-right: 250px;
+   width: 650px;
+  /* padding-right: 250px;*/
 
  }
 
  .__covered-img-children{
-   width: 700px;
-   padding-right: 50px;
+   width: 650px;
+  /* padding-right: 50px;*/
    padding-top: 30px;
 
  }
 
  .__ecosystem-img-children{
    width: 700px;
-   padding-right: 20px;
+ /*  padding-right: 20px;*/
    padding-top: 45px;
 
  }
 
  .__introspect-img-children{
   width: 750px;
-  padding-right: 20px;
+ /* padding-right: 20px;*/
 
  }
 
  .__modular-img-children{
    width: 670px;
-   padding-right: 50px;
+ /*  padding-right: 50px;*/
    padding-top: 18px;
 
  }
 
  .__research-img-children{
-   width: 700px;
-   padding-right: 50px;
+   width: 650px;
+  /* padding-right: 50px;*/
 
  }
 
  .__setup-img-children{
-   width: 720px;
-   padding-right: 120px;
+   width: 600px;
+ /*  padding-right: 120px;*/
    padding-top: 80px;
 
  }
