@@ -2,19 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Modular = () => (
-  <div className="principal">
+  <Container fluid className="principal">
     <Row>
-          <Col xs="12" md="6">
-        
-        <div className="__modular-img">
-            <img className="__modular-img-children" src={require('../assets/im2.png')} alt="Test"/>
-          </div>
-        
-      </Col>
-    
-      <Col xs="12" md="6">
-        
-          <div className="modular-first-box">
+      <Col md="6" xs="12">
+      <div className="__modular-img">
+          <img className="__modular-img-children" src={require('../assets/im2.png')} alt="Test"/>
+      </div>
+          </Col>
+      <Col md="6" xs="12">
+      <div className="modular-first-box">
               <p className="title"><strong>Modular and extendable</strong></p>
               <p className="second-title"><strong>Tools, libraries and <br/>
               components.</strong></p>
@@ -31,12 +27,9 @@ const Modular = () => (
               them to your individual needs.</p>
 
           </div>
-        
- 
       </Col>
-      
     </Row>
-  </div>
+  </Container>
 )
 
 export default Modular;

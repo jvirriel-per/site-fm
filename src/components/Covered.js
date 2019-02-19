@@ -2,19 +2,17 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Covered = () => (
-  <div className="principal">
-    <Row>
-    <Col xs="12" md="6">
-        
-        <div className="__covered-img">
-            <img className="__covered-img-children" src={require('../assets/im6.png')} alt="Test"/>
-          </div>
-        
-      </Col>
+<Container fluid className="principal">
+<Row>
 
-      <Col xs="12" md="6">
-        
-          <div className="covered-first-box">
+<Col md="6" xs="12">
+  <div className="__covered-img">
+      <img className="__covered-img-children" src={require('../assets/im6.png')} alt="Test"/>
+  </div>
+</Col>
+
+<Col md="6" xs="12">
+  <div className="covered-first-box">
               <p className="title"><strong>Risk Controls</strong></p>
               <p className="second-title"><strong>We got you <br/>
               covered.</strong></p>
@@ -29,12 +27,11 @@ const Covered = () => (
               different risk validation controls, to see how changes<br/>
               to regulations might impact your trading.</p>
 
-          </div>
-        
-      </Col>
-      
-    </Row>
   </div>
+</Col>
+
+</Row>
+</Container>
 )
 
 export default Covered;

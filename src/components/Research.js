@@ -2,14 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Research = () => (
-  <div className="principal">
-    <Row>
-      
-      <Col xs="12" md="6">
-        
-          <div className="research-first-box">
+  <Container fluid className="principal"> 
+  <Row> 
+    <Col md="6" xs="12">
+    <div className="research-first-box">
               <p className="title"><strong>Data analytic tools</strong></p>
-              <p className="second-title"><strong>Reasearch or <br/>
+              <p className="second-title"><strong>Research or <br/>
               prod, same</strong></p>
              
               <p className="text-1">FM ecosystem includes library for time-series<br/>
@@ -23,20 +21,15 @@ const Research = () => (
           extendanble so you can easy add you own custom<br/>
           computations.  </p>
 
-          </div>
-        
- 
-      </Col>
-      
-      <Col xs="12" md="6">
-        <div className="__research-img">
+    </div>
+    </Col>
+    <Col md="6" xs="12">
+    <div className="__research-img">
             <img className="__research-img-children" src={require('../assets/im5.png')} alt="Test"/>
-          </div>
-        
-      </Col>
-      
-    </Row>
-  </div>
+    </div>
+    </Col>
+  </Row>
+  </Container>
 )
 
 export default Research;

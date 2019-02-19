@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-  border: 2px #000000 solid;
+  border: 1px #000000 solid;
 }
 
 .topnav .icon {
@@ -95,76 +95,68 @@ img{
   }
   
   .white-button {
-    background-color: #F8F8F8;
+    background-color: #FCFCFC;
     font-family: 'hind';
     font-size: 18px;
     height: 50px;
     width: 150px;
     color: #3B9BFE;
     border: none;
+    text-align: left;
   
   }
 
  .principal{
      padding-top: 80px;
-     padding-bottom: 150px;
+     padding-bottom: 100px;
      padding-left: 50px;
  }
 
  .__anything-img-children{
-  width: 650px;
-/*  padding-right: 260px;*/
+  width: 630px;
 
 }
 
  .__featuremine-img-children{
-   width: 650px;
-  /* padding-right: 250px;*/
-
+   width: 640px;
+   padding-top: 50px;
+   
  }
 
  .__covered-img-children{
-   width: 650px;
-  /* padding-right: 50px;*/
+   width: 630px;
    padding-top: 30px;
 
  }
 
  .__ecosystem-img-children{
-   width: 700px;
- /*  padding-right: 20px;*/
+   width: 650px;
    padding-top: 45px;
 
  }
 
  .__introspect-img-children{
-  width: 750px;
- /* padding-right: 20px;*/
+   width: 640px;
 
  }
 
  .__modular-img-children{
-   width: 670px;
- /*  padding-right: 50px;*/
-   padding-top: 18px;
+   width: 600px;
+   padding-top: 25px;
 
  }
 
  .__research-img-children{
-   width: 650px;
-  /* padding-right: 50px;*/
+   width: 640px;
+   padding-top: 120px;
 
  }
 
  .__setup-img-children{
-   width: 600px;
- /*  padding-right: 120px;*/
-   padding-top: 80px;
+   width: 630px;
+   padding-top: 70px;
 
  }
-
-
-
 
 .principal{
 background: rgba(242,242,242,1);

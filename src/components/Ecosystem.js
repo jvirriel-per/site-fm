@@ -2,19 +2,16 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Ecosystem = () => (
-  <div className="principal">
-    <Row>
-    <Col xs="12" md="6">
-        
-        <div className="__ecosystem-img">
-            <img className="__ecosystem-img-children" src={require('../assets/im8.png')} alt="Test"/>
-          </div>
-        
-      </Col>
+  <Container fluid className="principal">
+  <Row>
 
-      <Col xs="12" md="6">
-        
-          <div className="ecosystem-first-box">
+    <Col md="6" xs="12">
+      <div className="__ecosystem-img">
+            <img className="__ecosystem-img-children" src={require('../assets/im8.png')} alt="Test"/>
+      </div>
+    </Col>
+    <Col md="6" xs="12">
+    <div className="ecosystem-first-box">
               <p className="title"><strong>Feedback</strong></p>
               <p className="second-title"><strong>Ecosystem <br/>
               evolves with you</strong></p>
@@ -33,15 +30,12 @@ const Ecosystem = () => (
                 <div className="two-buttons">
                   <button className="white-button"><strong>LEARN MORE <i className="fas fa-arrow-right" style={{fontSize: '20px'}}></i></strong></button>
                 </div>
-              </div>
+          </div>
 
           </div>
-        
- 
-      </Col>
-      
-    </Row>
-  </div>
+    </Col>
+  </Row>
+  </Container>
 )
 
 export default Ecosystem;

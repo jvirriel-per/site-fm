@@ -2,12 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Introspect = () => (
-  <div className="principal">
-    <Row>
-    
-      <Col xs="12" md="6">
-        
-          <div className="introspect-first-box">
+<Container fluid className="principal">
+<Row>
+  <Col md="6" xs="12">
+    <div className="introspect-first-box">
               <p className="title"><strong>Monitoring</strong></p>
               <p className="second-title"><strong>Introspect <br/>
               everything.</strong></p>
@@ -21,22 +19,15 @@ const Introspect = () => (
           between two points in the code and automatically<br/>
           feed the value to Graphite. With the incredibly low.</p>
 
-          </div>
-        
- 
-      </Col>
-
-      <Col xs="12" md="6">
-        
-        <div className="__introspect-img">
-            <img className="__introspect-img-children" src={require('../assets/im7.png')} alt="Test"/>
-          </div>
-        
-      </Col>
-
-      
-    </Row>
-  </div>
+    </div>
+  </Col>
+  <Col md="6" xs="12">
+    <div className="__introspect-img">
+        <img className="__introspect-img-children" src={require('../assets/im7.png')} alt="Test"/>
+    </div>
+  </Col>
+</Row>
+</Container>
 )
 
 export default Introspect;

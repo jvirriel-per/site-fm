@@ -1,12 +1,11 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 const Featuremine = () => (
-  <div className="principal">
+  <Container fluid className="principal">
     <Row>
-      <Col xs="12" md="6">
-        
-          <div className="__featuremine-first-box">
+      <Col md="6" xs="12">
+      <div className="__featuremine-first-box">
               <p className="title"><strong>FEATUREMINE</strong></p>
               <p className="second-title"><strong>Power to get<br/> 
               you there faster.</strong></p>
@@ -26,17 +25,16 @@ const Featuremine = () => (
               </Row>
             
           </div>
-        
       </Col>
-      <Col xs="12" md="6">
-        
-        <div className="__featuremine-img">
+      <Col md="6" xs="12">
+      <div className="__featuremine-img">
             <img className="__featuremine-img-children" src={require('../assets/im1.png')}/>
-          </div>
-        
+      </div>
       </Col>
+
     </Row>
-  </div>
+  </Container>
+  
 )
 
 export default Featuremine;

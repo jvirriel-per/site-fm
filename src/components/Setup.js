@@ -2,12 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Setup = () => (
-  <div className="principal">
-    <Row>
-      
-      <Col xs="12" md="6">
-        
-          <div className="setup-first-box">
+  <Container fluid className="principal">
+  <Row>
+    <Col md="6" xs="12">
+    <div className="setup-first-box">
               <p className="title"><strong>Python integration</strong></p>
               <p className="second-title"><strong>Setup in <br/> 
               Python, run in.</strong></p>
@@ -23,21 +21,15 @@ const Setup = () => (
           execution of the platform from Python allowing for<br/>
           complex multiday simulations.</p>
 
-          </div>
-        
- 
-      </Col>
-      
-      <Col xs="12" md="6">
-        
-        <div className="__setup-img">
+    </div>
+    </Col>
+    <Col md="6" xs="12">
+    <div className="__setup-img">
             <img className="__setup-img-children" src={require('../assets/im3.png')} alt="Test"/>
-          </div>
-        
-      </Col>
-      
-    </Row>
-  </div>
+    </div>
+    </Col>
+  </Row>  
+  </Container>
 )
 
 export default Setup;

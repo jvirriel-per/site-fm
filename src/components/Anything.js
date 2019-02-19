@@ -2,19 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Anything = () => (
-  <div className="principal">
+  <Container fluid className="principal">
     <Row>
-    <Col xs="12" md="6">
-        
-        <div className="__anything-img">
+      <Col md="6" xs="12">
+      <div className="__anything-img">
             <img className="__anything-img-children" src={require('../assets/im4.png')} alt="Test"/>
-          </div>
-        
+      </div>
       </Col>
-
-      <Col xs="12" md="6">
-        
-          <div className="__anything-first-box">
+      <Col md="6" xs="12">
+      <div className="__anything-first-box">
               <p className="title"><strong>Custom feeds</strong></p>
               <p className="second-title"><strong>Anything goes in,<br/>
               and out.</strong></p>
@@ -30,11 +26,9 @@ const Anything = () => (
              extend it yourself or we can help you do it.</p>
 
           </div>
-        
       </Col>
-
     </Row>
-  </div>
+  </Container>
 )
 
 export default Anything;
