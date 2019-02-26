@@ -19,14 +19,14 @@ class Navigation extends Component {
             <div className="topnav d-flex" id="myTopnav">
            
                 <img className="mr-auto ml-4" src={Logo} alt="FeatureMine"/>
-      
-                <a href="#home" class="active">
+     
+                <a href="#" className="mr-4">ABOUT</a>
+                <a href="#">PRODUCT</a>
+                <a href="#">PRICING</a>
+                <a href="#">LOGIN</a>
+                <a href="#" class="active mr-2">
                     OPEN ACCOUNT
                 </a>
-                <a href="#news">LOGIN</a>
-                <a href="#contact">PRICING</a>
-                <a href="#about">PRODUCT</a>
-                <a href="#about" className="mr-4">ABOUT</a>
                 <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
                     <i className="fa fa-bars" />
                 </a>
