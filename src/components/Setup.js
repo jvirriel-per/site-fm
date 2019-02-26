@@ -2,28 +2,28 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Setup = () => (
-  <Container fluid className="principal">
-  <Row>
-    <Col md="6" xs="12">
+  <Container fluid className="principal align-items-center justify-content-center">
+  <Row className="container">
+    <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0">
     <div className="setup-first-box">
               <p className="title"><strong>Python integration</strong></p>
-              <p className="second-title"><strong>Setup in <br/> 
+              <p className="second-title"><strong>Setup in 
               Python, run in.</strong></p>
               
-              <p className="text-1">All components of the FM ecosystem provide<br/>
-          Python integration allowing for simple setup and<br/>
-          configuration. This, for example, allows you to<br/>
-          control instrument universe, sysbology and data<br/>
-          sources from "Python". Your custom strategies or fill<br/>
-          models can easily integrate with Python as well,<br/>
-          allowing you to configure A/B testing or parameter<br/>
-          search with ease. It is even possible to control<br/>
-          execution of the platform from Python allowing for<br/>
+              <p className="text-1">All components of the FM ecosystem provide
+          Python integration allowing for simple setup and
+          configuration. This, for example, allows you to
+          control instrument universe, sysbology and data
+          sources from "Python". Your custom strategies or fill
+          models can easily integrate with Python as well,
+          allowing you to configure A/B testing or parameter
+          search with ease. It is even possible to control
+          execution of the platform from Python allowing for
           complex multiday simulations.</p>
 
     </div>
     </Col>
-    <Col md="6" xs="12">
+    <Col xs="12" md="12 align-item-center "  lg="7">
     <div className="__setup-img">
             <img className="__setup-img-children" src={require('../assets/im3.png')} alt="Test"/>
     </div>
