@@ -192,7 +192,7 @@ img {
   }
 }
 /*--------------840------------*/
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
   }
