@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Setup = () => (
   <Container fluid className="principal align-items-center justify-content-center">
-  <Row className="container">
-    <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0">
-    <div className="setup-first-box">
+  <Row className="contenedor">
+    <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0" className="d-flex align-item-center">
+    <div>
               <p className="title"><strong>Python integration</strong></p>
               <p className="second-title"><strong>Setup in 
               Python, run in.</strong></p>

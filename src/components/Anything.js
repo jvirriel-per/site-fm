@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Anything = () => (
   <Container fluid className="principal align-items-center justify-content-center">
-    <Row className="container align-items-center ">
+    <Row className="contenedor align-items-center ">
       <Col xs="12" md="12"  lg="7">
       <div className="__anything-img">
             <img className="__anything-img-children" src={require('../assets/im4.png')} alt="Test"/>

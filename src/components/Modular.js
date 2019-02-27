@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Modular = () => (
   <Container fluid className="principal align-items-center justify-content-center">
-    <Row className="container align-items-center ">
+    <Row className="contenedor align-items-center ">
       <Col xs="12" md="12"  lg="7">
       <div className="__modular-img">
           <img className="__modular-img-children" src={require('../assets/im2.png')} alt="Test"/>

@@ -149,10 +149,6 @@ body {
 .active {
   border: 1px #000000 solid;
 }
-img {
-  padding-left: 30px;
-  padding-top: 6px;
-}
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -227,14 +223,12 @@ img {
   }
 }
 /*--------------1920------------*/
-@media screen and (min-width: 1441px) {
-  .contenedor {
-    width: 1440px;
-  }
+.contenedor {
+  max-width: 1520px;
 }
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
   .second-title {
-    font-size: 2.8vw;
+    font-size: 3.11111111vw;
     line-height: 4vw;
   }
   .title {

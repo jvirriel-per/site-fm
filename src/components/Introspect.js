@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Introspect = () => (
 <Container fluid className="principal align-items-center justify-content-center">
-<Row className="container align-items-center ">
+<Row className="contenedor align-items-center ">
   <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0">
     <div className="introspect-first-box">
               <p className="title"><strong>Monitoring</strong></p>
