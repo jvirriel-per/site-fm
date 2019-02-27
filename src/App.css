@@ -21,18 +21,18 @@ body {
   font-family: 'Hind';
 }
 .second-title {
-  font-size: 3rem;
+  font-size: 4.32rem;
   font-weight: 700;
-  line-height: 3rem;
+  line-height: 5.25rem;
 }
 .title {
   color: #D73240;
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 .text-1 {
-  color: #575757;
-  font-size: 1rem;
+  color: #000000;
+  font-size: 1.2rem;
 }
 /*----------------layout--------------*/
 .App {
@@ -40,49 +40,35 @@ body {
 }
 body {
   margin: 0;
-}/*
-.topnav {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-.topnav a {
-  float: right;
-  display: block;
   color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'hind';
 }
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.contenedor {
+  margin: 0 1rem;
 }
-.topnav a:hover .icon {
-  display: none;
-}
-.topnav .active {
-  border: 1px #000000 solid;
-}
-*/
+/*
+  img{
+    padding-left: 30px;
+    padding-top: 6px;
+  }
+  */
 .two-buttons {
   display: flex;
   justify-content: space-between;
 }
 .black-button {
-  background-color: black;
+  min-width: 139px;
+  background-color: #000000;
   font-weight: 600;
-  font-size: 1rem;
-  padding: 0.5rem 1.5rem;
+  font-size: 1.08rem;
+  padding: 0.6rem 1.2rem;
   color: white;
-  border-color: black;
+  border-color: #000000;
 }
 .white-button {
   background: none;
   font-weight: 600;
-  font-size: 1rem;
-  padding: 0.5rem 1.5rem;
+  font-size: 1.08rem;
+  padding: 0.6rem 1.2rem;
   color: #3B9BFE;
   border: none;
   text-align: left;
@@ -146,11 +132,9 @@ body {
   background-color: #FFFFFF;
 }
 .topnav a {
-  float: right;
-  display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 25px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'hind';
@@ -169,7 +153,7 @@ img {
   padding-left: 30px;
   padding-top: 6px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -191,13 +175,31 @@ img {
     text-align: left;
   }
 }
+/*--------------768------------*/
+@media screen and (min-width: 768px) {
+  .__featuremine-img-children {
+    width: 110%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .__featuremine-img-children {
+    margin-left: -15vw;
+  }
+  .second-title {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  .title {
+    font-size: 6vw;
+  }
+}
 /*--------------840------------*/
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
   .topnav.responsive {
@@ -214,9 +216,31 @@ img {
     text-align: left;
   }
 }
-/*--------------768------------*/
-@media screen and (min-width: 768px) {
-  .__featuremine-img-children {
-    width: 110%;
+/*--------------1440------------*/
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  .second-title {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .title {
+    font-size: 3vw;
+  }
+}
+/*--------------1920------------*/
+@media screen and (min-width: 1441px) {
+  .contenedor {
+    width: 1440px;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .second-title {
+    font-size: 2.8vw;
+    line-height: 4vw;
+  }
+  .title {
+    font-size: 2vw;
+  }
+  .text-1 {
+    font-size: 1vw;
   }
 }

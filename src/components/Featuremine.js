@@ -3,11 +3,11 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Featuremine = () => (
   <Container fluid className="principal align-items-center justify-content-center">
-    <Row className="container">
+    <Row className="contenedor">
       <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0">
       <div className="__featuremine-first-box">
               <p className="title"><strong>FEATUREMINE</strong></p>
-              <p className="second-title"><strong>Power to get<br/> 
+              <p className="second-title"><strong>Power to get
               you there faster.</strong></p>
               
               <p className="text-1">FEATUREMINE Ecosystem is built to make your

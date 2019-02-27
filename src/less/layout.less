@@ -4,11 +4,12 @@
   
   body {
     margin: 0;
+    color: @baseColor;
   }
   
- 
-  
-  
+  .contenedor{
+    margin: 0 @baseGridSize;
+  }
   /*
   img{
     padding-left: 30px;
@@ -25,19 +26,20 @@
     } 
     
     .black-button {
-      background-color: black;
+      min-width: 139px;
+      background-color: @baseColor;
       font-weight: 600;
-      font-size: @baseTextSize * .4;
-      padding: @baseTextSize * .2 @baseTextSize * .6;
+      font-size: @baseTextSize * .9;
+      padding: @baseTextSize * .5 @baseTextSize ;
       color: white;
-      border-color: black;
+      border-color: @baseColor;
     }
     
     .white-button {
       background: none;
       font-weight: 600;
-      font-size: @baseTextSize * .4;
-      padding: @baseTextSize * .2 @baseTextSize * .6;
+      font-size: @baseTextSize * .9;
+      padding: @baseTextSize * .5 @baseTextSize ;
       color: #3B9BFE;
       border: none;
       text-align: left;
@@ -98,6 +100,7 @@
   
   
   .principal{
+    
   background: rgba(242,242,242,1);
   background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 0%, rgba(237,237,237,1) 10%, rgba(255,255,255,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(0%, rgba(235,235,235,1)), color-stop(10%, rgba(237,237,237,1)), color-stop(100%, rgba(255,255,255,1)));
