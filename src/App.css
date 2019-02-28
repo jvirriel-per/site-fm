@@ -114,7 +114,7 @@ body {
   width: 100%;
 }
 .__introspect-img-children {
-  width: 106%;
+  width: 120%;
 }
 .principal {
   background: #f2f2f2;
@@ -127,10 +127,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0);
 }
 /*-----------menu----------*/
-.topnav{
+.topnav {
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+  padding: 8px 10vw;
   overflow: hidden;
   background-color: #FFFFFF;
-  padding: 8px;
 }
 .topnav a {
   color: #000000;
@@ -142,22 +145,16 @@ body {
   letter-spacing: 0.2em;
 }
 .topnav a:hover {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
 }
 .topnav .icon {
   display: none;
 }
 .active {
+  padding: 7px 20px!important;
   border: 1px #000000 solid;
-  background: none;
-  padding: 1px;
 }
-.hover:hover{
-  background-color: #666;
-  color: white;
-}
-
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -245,22 +242,5 @@ body {
   }
   .text-1 {
     font-size: 1vw;
-  }
-}
-/*--------------360------------*/
-@media screen and (max-width: 360px) {
-  .second-title {
-    font-size: 5vw;
-    line-height: 5vw;
-  }
-  .title {
-    font-size: 3vw;
-  }
-  .text-1 {
-    font-size: 4vw;
-  }
-  .black-button,
-  .white-button {
-    font-size: 0.60rem;
   }
 }

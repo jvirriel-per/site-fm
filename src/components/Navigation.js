@@ -16,21 +16,24 @@ class Navigation extends Component {
     }
 
         return (
-            <div className="topnav d-flex" id="myTopnav">
+          
+            <div className="topnav d-flex align-item-center" id="myTopnav">
            
-                <img className="mr-auto ml-4" src={Logo} alt="FeatureMine"/>
-     
-                <a href="#" className="hov">ABOUT</a>
-                <a href="#"className="hov">PRODUCT</a>
-                <a href="#"className="hov mr-4">PRICING</a>
-                <a href="#"className="hov"><strong>LOGIN</strong></a>
-                <a href="#" className="active mr-2 hov">
-                    OPEN ACCOUNT
-                </a>
-                <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
-                    <i className="fa fa-bars" />
-                </a>
+                <img className="mr-auto" src={Logo} alt="FeatureMine"/>
+                
+                  <a href="#" className="hov">ABOUT</a>
+                  <a href="#"className="hov">PRODUCT</a>
+                  <a href="#"className="hov mr-4">PRICING</a>
+                  <a href="#"className="hov"><strong>LOGIN</strong></a>
+                  <a href="#" className="active hov">
+                      OPEN ACCOUNT
+                  </a>
+                  <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
+                      <i className="fa fa-bars" />
+                  </a>
+                
             </div>
+          
         );
     }
 }
