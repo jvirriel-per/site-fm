@@ -20,11 +20,11 @@ class Navigation extends Component {
            
                 <img className="mr-auto ml-4" src={Logo} alt="FeatureMine"/>
      
-                <a href="#" className="mr-4">ABOUT</a>
-                <a href="#">PRODUCT</a>
-                <a href="#">PRICING</a>
-                <a href="#">LOGIN</a>
-                <a href="#" class="active mr-2">
+                <a href="#" className="hov">ABOUT</a>
+                <a href="#"className="hov">PRODUCT</a>
+                <a href="#"className="hov">PRICING</a>
+                <a href="#"className="hov">LOGIN</a>
+                <a href="#" className="active mr-2 hov">
                     OPEN ACCOUNT
                 </a>
                 <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>

@@ -127,7 +127,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0);
 }
 /*-----------menu----------*/
-.topnav {
+.topnav{
   overflow: hidden;
   background-color: #FFFFFF;
 }
@@ -149,6 +149,11 @@ body {
 .active {
   border: 1px #000000 solid;
 }
+.hover:hover{
+  background-color: #666;
+  color: white;
+}
+
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -236,5 +241,22 @@ body {
   }
   .text-1 {
     font-size: 1vw;
+  }
+}
+/*--------------360------------*/
+@media screen and (max-width: 360px) {
+  .second-title {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .title {
+    font-size: 3vw;
+  }
+  .text-1 {
+    font-size: 4vw;
+  }
+  .black-button,
+  .white-button {
+    font-size: 0.60rem;
   }
 }
