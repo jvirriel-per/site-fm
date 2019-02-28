@@ -3,13 +3,13 @@
   z-index: 100;
     position: fixed;
     width: 100vw;
-    padding: 8px 10vw;
+    padding: 0 10vw;
     overflow: hidden;
     background-color: #FFFFFF;
     a {
         
         
-        color: #000000;
+        color: @baseColor;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -17,8 +17,8 @@
         font-family: 'hind';
         letter-spacing: .2em;
         &:hover {
-            background-color: rgb(255, 255, 255);
-            color: black;
+          background-color: lighten(@baseColor, 90);
+          color: lighten(@baseColor, 10) ;
       }
     }
     .icon {
@@ -28,12 +28,11 @@
     
   .active {
     padding: 7px 20px!important;
-    border: 1px #000000 solid;
+    border: 1px @baseColor solid;
+
+    
   }
-  
- 
-  
- 
+
 @media screen and (max-width: 890px) {
 
     .topnav {

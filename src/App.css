@@ -131,7 +131,7 @@ body {
   z-index: 100;
   position: fixed;
   width: 100vw;
-  padding: 8px 10vw;
+  padding: 0 10vw;
   overflow: hidden;
   background-color: #FFFFFF;
 }
@@ -145,8 +145,8 @@ body {
   letter-spacing: 0.2em;
 }
 .topnav a:hover {
-  background-color: #ffffff;
-  color: black;
+  background-color: #e6e6e6;
+  color: #1a1a1a;
 }
 .topnav .icon {
   display: none;

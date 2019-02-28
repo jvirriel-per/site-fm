@@ -24,7 +24,7 @@ class Navigation extends Component {
                   <a href="#" className="hov">ABOUT</a>
                   <a href="#"className="hov">PRODUCT</a>
                   <a href="#"className="hov mr-4">PRICING</a>
-                  <a href="#"className="hov"><strong>LOGIN</strong></a>
+                  <a href="#"className="hov mr-2"><strong>LOGIN</strong></a>
                   <a href="#" className="active hov">
                       OPEN ACCOUNT
                   </a>
