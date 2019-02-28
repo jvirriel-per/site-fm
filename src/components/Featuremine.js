@@ -15,13 +15,13 @@ const Featuremine = () => (
               and more successful. Here are the features and
               components of the worlds most advanced quant
               ecosystem.</p>
-              <Row>
-                <Col xs="6" md="6">
+              <Row className="align-item-center justify-content-between mr-1 ml-1 call-t-action">
+                
                   <button className="black-button"><strong>TRY IT NOW</strong></button>
-                </Col>
-                <Col xs="6" md="6">
+                
+                
                   <button className="white-button"><strong>LEARN MORE <i className="fas fa-arrow-right"></i></strong></button>
-                </Col>
+                
               </Row>
             
           </div>

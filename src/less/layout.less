@@ -3,6 +3,7 @@
   }
   
   body {
+    min-width: 320px;
     margin: 0;
     color: @baseColor;
   }
@@ -18,7 +19,19 @@
   */
   
   
- 
+@media screen and(max-width:440px){ 
+  .call-t-action{
+    justify-content: center!important;
+
+    .black-button{
+      width: 100%;
+    }
+    .white-button{
+      text-align: center;
+      width: 100%;
+    }
+ }
+}
   
     .two-buttons{
       display: flex;
@@ -26,6 +39,7 @@
     } 
     
     .black-button {
+      letter-spacing: .1em;
       min-width: 139px;
       background-color: @baseColor;
       font-weight: 600;
@@ -36,6 +50,7 @@
     }
     
     .white-button {
+      letter-spacing: .1em;
       background: none;
       font-weight: 600;
       font-size: @baseTextSize * .9;
@@ -77,7 +92,7 @@
    }
   
    .__featuremine-img-children{
-    width: 130%;
+    width: 120%;
     margin-left: -4vw;
    }
   

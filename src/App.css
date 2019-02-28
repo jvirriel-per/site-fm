@@ -39,6 +39,7 @@ body {
   text-align: left;
 }
 body {
+  min-width: 320px;
   margin: 0;
   color: #000000;
 }
@@ -51,11 +52,24 @@ body {
     padding-top: 6px;
   }
   */
+@media screen and (max-width: 440px) {
+  .call-t-action {
+    justify-content: center!important;
+  }
+  .call-t-action .black-button {
+    width: 100%;
+  }
+  .call-t-action .white-button {
+    text-align: center;
+    width: 100%;
+  }
+}
 .two-buttons {
   display: flex;
   justify-content: space-between;
 }
 .black-button {
+  letter-spacing: 0.1em;
   min-width: 139px;
   background-color: #000000;
   font-weight: 600;
@@ -65,6 +79,7 @@ body {
   border-color: #000000;
 }
 .white-button {
+  letter-spacing: 0.1em;
   background: none;
   font-weight: 600;
   font-size: 1.08rem;
@@ -98,7 +113,7 @@ body {
   width: 100%;
 }
 .__featuremine-img-children {
-  width: 130%;
+  width: 120%;
   margin-left: -4vw;
 }
 .__modular-img-children {
@@ -127,10 +142,14 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0);
 }
 /*-----------menu----------*/
+#myTopnav {
+  padding: 0 1em;
+}
 .topnav {
   z-index: 100;
   position: fixed;
-  width: 100vw;
+  width: 100%;
+  min-width: 320px;
   overflow: hidden;
   background-color: #FFFFFF;
 }
@@ -217,7 +236,7 @@ body {
     display: none;
   }
   .topnav a.icon {
-    float: left;
+    float: right;
     display: block;
   }
   .topnav.responsive {
@@ -254,7 +273,7 @@ body {
     line-height: 4vw;
   }
   .title {
-    font-size: 2vw;
+    font-size: 1.81818182vw;
   }
   .text-1 {
     font-size: 1vw;
