@@ -17,8 +17,8 @@ class Navigation extends Component {
 
         return (
           
-            <div className="topnav d-flex align-item-center" id="myTopnav">
-           
+            <div className="topnav" >
+              <nav className="d-flex align-item-center contenedor m-auto" id="myTopnav">
                 <img className="mr-auto" src={Logo} alt="FeatureMine"/>
                 
                   <a href="#" className="hov">ABOUT</a>
@@ -31,7 +31,7 @@ class Navigation extends Component {
                   <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
                       <i className="fa fa-bars" />
                   </a>
-                
+                  </nav>  
             </div>
           
         );
