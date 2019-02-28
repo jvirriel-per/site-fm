@@ -130,6 +130,7 @@ body {
 .topnav{
   overflow: hidden;
   background-color: #FFFFFF;
+  padding: 8px;
 }
 .topnav a {
   color: #000000;
@@ -140,7 +141,7 @@ body {
   font-family: 'hind';
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FFFFFF;
   color: black;
 }
 .topnav .icon {
@@ -148,6 +149,8 @@ body {
 }
 .active {
   border: 1px #000000 solid;
+  background: none;
+  padding: 1px;
 }
 .hover:hover{
   background-color: #666;
