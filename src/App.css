@@ -195,39 +195,30 @@ body {
     text-align: left;
   }
 }
-/*--------------360------------*/
-@media screen and (max-width: 360px) {
+/*--------------1920------------*/
+.contenedor {
+  max-width: 1520px;
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .second-title {
+    font-size: 3.11111111vw;
+    line-height: 4vw;
+  }
+  .title {
+    font-size: 1.81818182vw;
+  }
+  .text-1 {
+    font-size: 1vw;
+  }
+}
+/*--------------1440------------*/
+@media screen and (min-width: 769px) and (max-width: 1440px) {
   .second-title {
     font-size: 5vw;
     line-height: 5vw;
   }
   .title {
     font-size: 3vw;
-  }
-  .text-1 {
-    font-size: 4vw;
-  }
-  .black-button,
-  .white-button {
-    font-size: 0.6rem;
-  }
-}
-/*--------------768------------*/
-@media screen and (min-width: 768px) {
-  .__featuremine-img-children {
-    width: 110%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .__featuremine-img-children {
-    margin-left: -15vw;
-  }
-  .second-title {
-    font-size: 10vw;
-    line-height: 10vw;
-  }
-  .title {
-    font-size: 6vw;
   }
 }
 /*--------------840------------*/
@@ -253,8 +244,26 @@ body {
     text-align: left;
   }
 }
-/*--------------1440------------*/
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+/*--------------768------------*/
+@media screen and (min-width: 768px) {
+  .__featuremine-img-children {
+    width: 110%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .__featuremine-img-children {
+    margin-left: -15vw;
+  }
+  .second-title {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  .title {
+    font-size: 6vw;
+  }
+}
+/*--------------360------------*/
+@media (max-width: 576px) {
   .second-title {
     font-size: 5vw;
     line-height: 5vw;
@@ -262,20 +271,20 @@ body {
   .title {
     font-size: 3vw;
   }
-}
-/*--------------1920------------*/
-.contenedor {
-  max-width: 1520px;
-}
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .text-1 {
+    font-size: 4vw;
+  }
+  .black-button,
+  .white-button {
+    font-size: 0.6rem;
+  }
   .second-title {
-    font-size: 3.11111111vw;
-    line-height: 4vw;
+    font-size: 1.8rem !important;
+    line-height: 1.8rem !important;
   }
   .title {
-    font-size: 1.81818182vw;
-  }
-  .text-1 {
-    font-size: 1vw;
+    font-size: 1.2rem !important;
+    line-height: 1.2rem !important;
+    margin-top: 1.2rem;
   }
 }
