@@ -145,13 +145,19 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0);
 }
 /*-----------menu----------*/
-#myTopnav {
-  padding: 0 1em;
+/*
+  #myTopnav{
+    padding: 0 1em;
+  }
+*/
+.hov {
+  display: flex;
+  flex-direction: column;
 }
 .topnav {
   z-index: 100;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   min-width: 320px;
   overflow: hidden;
   background-color: #FFFFFF;
@@ -239,9 +245,9 @@ body {
     display: block;
   }
   .topnav.responsive {
-    position: relative;
+    position: fixed;
   }
-  .topnav.responsive .icon {
+  .topnav.responsive.icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -255,13 +261,10 @@ body {
 /*--------------768------------*/
 @media screen and (min-width: 768px) {
   .__featuremine-img-children {
-    width: 110%;
+    /* width: 110%;*/
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .__featuremine-img-children {
-    margin-left: -15vw;
-  }
   .second-title {
     font-size: 5vw;
     line-height: 5vw;
