@@ -8,6 +8,12 @@
 @font-face {
   font-family: 'Hind';
   font-style: normal;
+  font-weight: 500;
+  src: local('Hind Medium'), local('Hind-Medium'), url(https://fonts.gstatic.com/s/hind/v9/5aU19_a8oxmIfJpbERySiA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
   font-weight: 600;
   src: local('Hind SemiBold'), local('Hind-SemiBold'), url(https://fonts.gstatic.com/s/hind/v9/5aU19_a8oxmIfLZcERySiA.ttf) format('truetype');
 }
@@ -21,18 +27,19 @@ body {
   font-family: 'Hind';
 }
 .second-title {
-  font-size: 4.32rem;
+  font-size: 3.84rem;
   font-weight: 700;
-  line-height: 5.25rem;
+  line-height: 3.84rem;
 }
 .title {
   color: #D73240;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .text-1 {
-  color: #000000;
+  color: #666666;
   font-size: 1.2rem;
+  margin-bottom: 4rem;
 }
 /*----------------layout--------------*/
 .App {
@@ -44,7 +51,8 @@ body {
   color: #000000;
 }
 .contenedor {
-  margin: 0 1rem;
+  width: 1280px !important;
+  display: flex;
 }
 /*
   img{
@@ -52,6 +60,12 @@ body {
     padding-top: 6px;
   }
   */
+.c-5 {
+  width: 525px;
+}
+.c-7 {
+  width: 740px;
+}
 @media screen and (max-width: 440px) {
   .call-t-action {
     justify-content: center!important;
@@ -69,12 +83,12 @@ body {
   justify-content: space-between;
 }
 .black-button {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   min-width: 139px;
   background-color: #000000;
   font-weight: 600;
-  font-size: 1.08rem;
-  padding: 0.6rem 1.2rem;
+  font-size: 0.96rem;
+  padding: 0.96rem 1.92rem;
   color: white;
   border-color: #000000;
 }
@@ -82,9 +96,9 @@ body {
   letter-spacing: 0.1em;
   background: none;
   font-weight: 600;
-  font-size: 1.08rem;
+  font-size: 0.96rem;
   padding: 0.6rem 1.2rem;
-  color: #3B9BFE;
+  color: #3595fe;
   border: none;
   text-align: left;
 }
@@ -135,14 +149,17 @@ body {
        width: 100%;
    }*/
 .principal {
-  background: #f2f2f2;
-  background: -moz-linear-gradient(top, #f2f2f2 0%, #ebebeb 0%, #ededed 10%, #ffffff 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f2f2f2), color-stop(0%, #ebebeb), color-stop(10%, #ededed), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #f2f2f2 0%, #ebebeb 0%, #ededed 10%, #ffffff 100%);
-  background: -o-linear-gradient(top, #f2f2f2 0%, #ebebeb 0%, #ededed 10%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #f2f2f2 0%, #ebebeb 0%, #ededed 10%, #ffffff 100%);
-  background: linear-gradient(to bottom, #f2f2f2 0%, #ebebeb 0%, #ededed 10%, #ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#ffffff', GradientType=0);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,ffffff+100 */
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fafafa 0%, #ffffff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fafafa 0%, #ffffff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fafafa 0%, #ffffff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
 }
 /*-----------menu----------*/
 /*
@@ -164,12 +181,13 @@ body {
   background-color: #FFFFFF;
 }
 .topnav a {
-  color: #000000;
+  color: #808080;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 13px;
   font-family: 'hind';
+  font-weight: 500;
   letter-spacing: 0.2em;
 }
 .topnav a:hover {
@@ -205,39 +223,72 @@ body {
     text-align: left;
   }
 }
-/*--------------1920------------*/
-.contenedor {
-  max-width: 1520px;
-}
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+/*--------------1920------------
+@import "1920.less";
+
+/*--------------1440------------
+
+@import "1440.less";
+
+/*--------------840------------
+@import "840.less";
+
+/*--------------768------------
+@import "768.less";
+
+/*--------------360------------
+@import "576.less";*/
+/*-------------1400------------*/
+@media screen and (max-width: 1400px) {
   .second-title {
-    font-size: 3.11111111vw;
-    line-height: 4vw;
+    font-size: 3.072rem;
+    line-height: 3.072rem;
   }
   .title {
-    font-size: 1.81818182vw;
+    font-size: 1.44rem;
   }
   .text-1 {
-    font-size: 1vw;
+    font-size: 0.96rem;
+    margin-bottom: 3.2rem;
+  }
+  .contenedor {
+    width: 1024px !important;
+  }
+  .c-5 {
+    width: 420px !important;
+  }
+  .c-7 {
+    width: 592px !important;
   }
 }
-/*--------------1440------------*/
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-  .second-title {
-    font-size: 5vw;
-    line-height: 5vw;
+/*-------------1080------------*/
+@media screen and (max-width: 1080px) {
+  /*.second-title{
+        font-size: (@baseTextSize * 3.2) * .6;
+        line-height: (@baseTextSize * 3.2 * .6);
+    }
+    
+    .title {
+    
+        font-size: (@baseTextSize * 1.5) * .6;
+     
+      }
+      
+      
+    .text-1{
+    
+        font-size: (@baseTextSize * .6) ;
+        margin-bottom: (4rem) * .6;
+    }*/
+  .contenedor {
+    width: 768px !important;
   }
-  .title {
-    font-size: 3vw;
+  .c-5 {
+    width: 315px !important;
   }
-  .principal {
-    height: 100%;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+  .c-7 {
+    width: 444px !important;
   }
-}
-/*--------------840------------*/
-@media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -259,52 +310,8 @@ body {
     text-align: left;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1080px) {
   .topnav {
     padding: 0 5vw;
-  }
-}
-/*--------------768------------*/
-@media screen and (min-width: 768px) {
-  .__featuremine-img-children {
-    /* width: 110%;*/
-  }
-}
-@media screen and (min-width: 577px) and (max-width: 768px) {
-  .second-title {
-    font-size: 5vw;
-    line-height: 5vw;
-  }
-  .title {
-    font-size: 3vw;
-  }
-  .text-1 {
-    font-size: 2.1vw;
-  }
-}
-/*--------------360------------*/
-@media (max-width: 576px) {
-  .second-title {
-    font-size: 5vw;
-    line-height: 5vw;
-  }
-  .title {
-    font-size: 3vw;
-  }
-  .text-1 {
-    font-size: 4vw;
-  }
-  .black-button,
-  .white-button {
-    font-size: 0.6rem;
-  }
-  .second-title {
-    font-size: 1.8rem !important;
-    line-height: 1.8rem !important;
-  }
-  .title {
-    font-size: 1.2rem !important;
-    line-height: 1.2rem !important;
-    margin-top: 1.2rem;
   }
 }
