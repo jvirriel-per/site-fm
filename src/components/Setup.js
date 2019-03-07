@@ -8,7 +8,7 @@ const Setup = () => (
     <div>
               <p className="title"><strong>Python integration</strong></p>
               <p className="second-title"><strong>Setup in 
-              Python, run in.</strong></p>
+              Python, run in C++.</strong></p>
               
               <p className="text-1">All components of the FM ecosystem provide
           Python integration allowing for simple setup and
