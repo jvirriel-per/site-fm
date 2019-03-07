@@ -195,8 +195,8 @@ body {
   letter-spacing: 0.2em;
 }
 .topnav a:hover {
-  background-color: #e6e6e6;
   color: #1a1a1a;
+  font-weight:bold;
 }
 .topnav .icon {
   display: none;
