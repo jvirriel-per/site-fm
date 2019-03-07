@@ -195,15 +195,15 @@ body {
   letter-spacing: 0.2em;
 }
 .topnav a:hover {
-  color: #1a1a1a;
-  font-weight:bold;
+  color: #000000;
+  /*font-weight:bold;*/
 }
 .topnav .icon {
   display: none;
 }
 .active {
   padding: 7px 20px!important;
-  border: 1px #000000 solid;
+  /*border: 1px #000000 solid;*/
 }
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {

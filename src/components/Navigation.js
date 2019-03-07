@@ -36,7 +36,7 @@ class Navigation extends Component {
                 
                 <a href="#"className="hov" id="login" onClick={() => { this.setState({ pricing: false, about: false, login: true})}}>SUPPORT { this.state.login && <img src={Points} />}</a>
                 <a href="#" className="active hov" id="account">
-                      TRY IT NOW
+                      <strong>TRY IT NOW</strong>
                   </a>
                   <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
                       <i className="fa fa-bars" />
