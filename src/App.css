@@ -55,6 +55,9 @@ body {
   display: flex;
   padding: 16vh 0;
 }
+.p-t-10 {
+  padding-top: 10vh;
+}
 /*
   img{
     padding-left: 30px;

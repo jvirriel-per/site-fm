@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 const Featuremine = () => (
-  <Container fluid className="principal align-items-center justify-content-center">
+  <Container fluid className="p-t-10 principal align-items-center justify-content-center">
     <Row className="contenedor">
       <Col xs="12 order-1" md="12 order-md-1"  lg="5 order-lg-0" className="d-flex align-item-center">
       <div className="__featuremine-first-box">
