@@ -7,8 +7,8 @@ import Points from '../assets/active.svg';
 class Navigation extends Component {
   state = {
     about: false,
-    product: false,
-    pricing: false
+    pricing: false,
+    login: false
    }
 
     addImage = (id) => {
@@ -30,15 +30,13 @@ class Navigation extends Component {
            
                 <img className="mr-auto" src={Logo} alt="FeatureMine"/>
                 
-                <a href="#" className="hov" id="about" onClick={() => { this.setState({ about: true, product: false, pricing: false})}}>ABOUT { this.state.about && <img src={Points} />}</a>
+                <a href="#" className="hov" id="about" onClick={() => { this.setState({ about: true, pricing: false, login: false})}}>ABOUT { this.state.about && <img src={Points} />}</a>
+                                
+                <a href="#" className="hov" id="pricing" onClick={() => { this.setState({ pricing: true, about: false, login: false})}}>CONTACT SALES { this.state.pricing && <img src={Points} />}</a>
                 
-                <a href="#" className="hov" id="product" onClick={() => { this.setState({ product: true, about: false, pricing: false})}}>PRODUCT { this.state.product && <img src={Points} />}</a>
-                
-                <a href="#" className="hov" id="pricing" onClick={() => { this.setState({ pricing: true, about: false, product:false})}}>PRICING { this.state.pricing && <img src={Points} />}</a>
-                
-                <a href="#"className="hov mr-2" id="login"><strong>LOGIN</strong></a>
+                <a href="#"className="hov" id="login" onClick={() => { this.setState({ pricing: false, about: false, login: true})}}>SUPPORT { this.state.login && <img src={Points} />}</a>
                 <a href="#" className="active hov" id="account">
-                      OPEN ACCOUNT
+                      TRY IT NOW
                   </a>
                   <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
                       <i className="fa fa-bars" />
