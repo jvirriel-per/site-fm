@@ -200,15 +200,13 @@ body {
   font-weight: 500;
 }
 .topnav a:hover {
-  background-color: #e6e6e6;
-  color: #1a1a1a;
+  color: #000000;
 }
 .topnav .icon {
   display: none;
 }
 .active {
   padding: 7px 20px!important;
-  border: 1px #000000 solid;
 }
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
