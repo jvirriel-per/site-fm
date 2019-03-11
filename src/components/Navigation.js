@@ -25,7 +25,7 @@ class Navigation extends Component {
     }
 
         return (
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center nav">
             <div className="topnav d-flex align-item-center" id="myTopnav">
            
                 <img className="mr-auto" src={Logo} alt="FeatureMine"/>

@@ -8,11 +8,17 @@
   display: flex;
   flex-direction: column;
 }
+.nav{
+  background-color: white;
+    height: 52px;
+    position: fixed;
+    width: 100%;
+}
 .topnav {
     margin: auto;
     z-index: 100;
     position: fixed;
-    width: 100vw;
+    width:100%;
     min-width: 320px;
     overflow: hidden;
     background-color: #FFFFFF;
@@ -24,13 +30,13 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 16px;
         font-family: 'hind';
         font-weight: 500;
-        letter-spacing: .2em;
-        &:hover {
-          background-color: lighten(@baseColor, 90);
+        &:hover {         
+         background-color: lighten(@baseColor, 90);
           color: lighten(@baseColor, 10) ;
+          
       }
     }
     .icon {

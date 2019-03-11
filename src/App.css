@@ -175,11 +175,17 @@ body {
   display: flex;
   flex-direction: column;
 }
+.nav {
+  background-color: white;
+  height: 52px;
+  position: fixed;
+  width: 100%;
+}
 .topnav {
   margin: auto;
   z-index: 100;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   min-width: 320px;
   overflow: hidden;
   background-color: #FFFFFF;
@@ -194,15 +200,15 @@ body {
   font-weight: 500;
 }
 .topnav a:hover {
-  color: #000000;
-  /*font-weight:bold;*/
+  background-color: #e6e6e6;
+  color: #1a1a1a;
 }
 .topnav .icon {
   display: none;
 }
 .active {
   padding: 7px 20px!important;
-  /*border: 1px #000000 solid;*/
+  border: 1px #000000 solid;
 }
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
@@ -226,21 +232,6 @@ body {
     text-align: left;
   }
 }
-/*--------------1920------------
-@import "1920.less";
-
-/*--------------1440------------
-
-@import "1440.less";
-
-/*--------------840------------
-@import "840.less";
-
-/*--------------768------------
-@import "768.less";
-
-/*--------------360------------
-@import "576.less";*/
 /*-------------1400------------*/
 @media screen and (max-width: 1400px) {
   .second-title {
@@ -315,6 +306,6 @@ body {
 }
 @media screen and (min-width: 1080px) {
   .topnav {
-    padding: 0 5vw;
+    max-width: 1280px;
   }
 }
