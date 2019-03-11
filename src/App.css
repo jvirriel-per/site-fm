@@ -180,6 +180,7 @@ body {
   height: 52px;
   position: fixed;
   width: 100%;
+  z-index: 110;
 }
 .topnav {
   margin: auto;
