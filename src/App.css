@@ -206,9 +206,6 @@ body {
 .topnav .icon {
   display: none;
 }
-.active {
-  padding: 7px 20px!important;
-}
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;

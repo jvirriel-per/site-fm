@@ -32,11 +32,11 @@ class Navigation extends Component {
                 
                 <a href="#" className="hov" id="about" onClick={() => { this.setState({ about: true, pricing: false, login: false})}}>About { this.state.about && <img src={Points} />}</a>
                                 
-                <a href="#" className="hov" id="pricing" onClick={() => { this.setState({ pricing: true, about: false, login: false})}}>Contact Sales { this.state.pricing && <img src={Points} />}</a>
+                <a href="#" className="hov" id="pricing" onClick={() => { this.setState({ pricing: true, about: false, login: false})}}>Sales { this.state.pricing && <img src={Points} />}</a>
                 
                 <a href="#"className="hov" id="login" onClick={() => { this.setState({ pricing: false, about: false, login: true})}}>Support { this.state.login && <img src={Points} />}</a>
                 <a href="#" className="active hov" id="account">
-                      <strong>Try It Now</strong>
+                      <strong>Explore</strong>
                   </a>
                   <a href="javascript:void(0);" className="icon" onClick={() => responsive()}>
                       <i className="fa fa-bars" />
