@@ -206,6 +206,9 @@ body {
 .topnav .icon {
   display: none;
 }
+.active {
+  color: #3595fe !important;
+}
 @media screen and (max-width: 890px) {
   .topnav a:not(:first-child) {
     display: none;
