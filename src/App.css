@@ -70,6 +70,9 @@ body {
 .c-7 {
   width: 740px;
 }
+#logo {
+  margin-right: auto;
+}
 @media screen and (max-width: 440px) {
   .call-t-action {
     justify-content: center!important;
@@ -294,6 +297,9 @@ body {
   }
   .topnav.responsive {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .topnav.responsive.icon {
     position: absolute;
@@ -304,6 +310,9 @@ body {
     float: none;
     display: block;
     text-align: left;
+  }
+  .topnav.responsive #logo {
+    margin: auto;
   }
 }
 @media screen and (min-width: 1080px) {
