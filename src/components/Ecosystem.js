@@ -14,7 +14,7 @@ const Ecosystem = () => (
     <div className="ecosystem-first-box">
               <p className="title"><strong>Feedback</strong></p>
               <p className="second-title"><strong>Ecosystem 
-              evolves with you</strong></p>
+              evolves with you.</strong></p>
 
               <p className="text-1">We know, when you are trading, fast responde is
           crucial. We are always here for you by chat, phone or

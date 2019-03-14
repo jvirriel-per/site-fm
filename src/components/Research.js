@@ -8,7 +8,7 @@ const Research = () => (
     <div className="research-first-box">
               <p className="title"><strong>Data analytic tools</strong></p>
               <p className="second-title"><strong>Research or 
-              prod, same</strong></p>
+              prod, same.</strong></p>
              
               <p className="text-1">FM ecosystem includes library for time-series
           analysis. The library provides an easy to use Python
