@@ -36,22 +36,30 @@
         font-weight: 500;
         &:hover {         
          //background-color: lighten(@baseColor, 90);
-          color: lighten(@baseColor, 0) ;
+          color: lighten(@baseColor, 0);
           
+      }
+      &.active {
+        //padding: 7px 20px!important;
+        //border: 1px @baseColor solid;
+        color: @blue;
+        
+        &:hover {         
+          
+           color: darken(@blue, 25) ;
+           
+       }
+        
       }
     }
     .icon {
         display: none;
       }
   }
+
+ 
     
-  .active {
-    //padding: 7px 20px!important;
-    //border: 1px @baseColor solid;
-    color: @blue!important;
-    
-    
-  }
+  
 
 @media screen and (max-width: 890px) {
 
