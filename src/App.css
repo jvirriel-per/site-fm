@@ -274,7 +274,7 @@ body {
         margin-bottom: (4rem) * .6;
     }*/
   #logo {
-    padding-left: auto;
+    margin: auto;
   }
   .contenedor {
     width: 768px !important;
