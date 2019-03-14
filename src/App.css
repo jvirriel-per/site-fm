@@ -204,7 +204,7 @@ body {
   font-weight: 500;
 }
 .topnav a:hover {
-  color: #000000;
+  color: #000000 !important;
 }
 .topnav .icon {
   display: none;
