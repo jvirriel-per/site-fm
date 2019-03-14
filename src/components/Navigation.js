@@ -28,7 +28,7 @@ class Navigation extends Component {
           <div className="d-flex justify-content-center nav">
             <div className="topnav d-flex align-item-center" id="myTopnav">
            
-                <img className="mr-auto" src={Logo} alt="FeatureMine"/>
+                <img id="logo" className="mr-auto" src={Logo} alt="FeatureMine"/>
                 
                 <a href="#" className="hov" id="about" onClick={() => { this.setState({ about: true, pricing: false, login: false})}}>About { this.state.about && <img src={Points} />}</a>
                                 
