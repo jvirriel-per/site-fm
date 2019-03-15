@@ -209,6 +209,9 @@ body {
   .navbar-brand {
     margin: auto;
   }
+  .navbar {
+    padding: 0 1rem 0 3.75rem;
+  }
   #logo {
     height: 50px;
   }
