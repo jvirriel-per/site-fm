@@ -43,43 +43,14 @@
     }
    
 
-      .topnav{ 
-    
-        a:not(:first-child) {display: none;}
-        a.icon {
-        float: right;
-        display: block;
-      }
-
-      &.responsive {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        &.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-          }
-          a {
-            float: none;
-            display: block;
-            text-align: left;
-            }
-          #logo{
-            margin: auto;
-          }
-        }
-
-        } 
+       
 }
 
-@media screen and (min-width: 1080px) {
-    .topnav{
-       max-width: 1280px;
-       padding: 0 10px;
-    }
+@media screen and (max-width: 1080px) {
+  .contenedor{
+    padding: 5vh 0;
+  }
+    
 }
 
 @media screen and (min-width: 521px) and (max-width: 1079px) { 
