@@ -15,7 +15,7 @@ const Featuremine = () => (
               and more successful. Here are the features and
               components of the worlds most advanced quant
               ecosystem.</p>
-              <div className="align-item-center justify-content-between mr-1 ml-1 call-t-action">
+              <div  className="align-item-center justify-content-between mr-1 ml-1 call-t-action mb-5">
                 
                   <button className="black-button"><strong>TRY IT NOW</strong></button>
                 
