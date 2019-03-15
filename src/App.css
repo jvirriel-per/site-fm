@@ -176,10 +176,11 @@ body {
   height: 54px;
   background-color: white;
   position: fixed;
+  z-index: 150;
 }
 .navbar {
   background: #ffffff;
-  max-width: 1280px !important;
+  max-width: 1295px !important;
   z-index: 200;
   position: fixed;
   padding: 0 1rem;
@@ -191,8 +192,8 @@ body {
   border: none;
 }
 .navbar-nav a {
-  padding-right: 0.8rem;
-  padding-left: 0.8rem;
+  padding-right: 1rem!important;
+  padding-left: 1rem!important;
   color: #808080;
 }
 .navbar-nav a:hover {
@@ -203,6 +204,17 @@ body {
 }
 .navbar-nav .explore:hover {
   color: #0156b3 !important;
+}
+@media (max-width: 992px) {
+  .navbar-brand {
+    margin: auto;
+  }
+  #logo {
+    height: 65px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
 }
 /*-------------1400------------*/
 @media screen and (max-width: 1400px) {

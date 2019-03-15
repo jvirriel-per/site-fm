@@ -5,10 +5,11 @@
     height: 54px;
     background-color: white;
     position: fixed;
+    z-index: 150;
 }
 .navbar{
     background: lighten(@baseColor, 100);
-    max-width: @contenedor!important;
+    max-width: @contenedor + 15!important;
     z-index: 200;
     position: fixed;
     padding: 0 1rem;
@@ -22,8 +23,8 @@
 }
 .navbar-nav{
     a{
-        padding-right: .8rem;
-        padding-left: .8rem;
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
         color: lighten(@baseColor, 50) ;
         &:hover { 
             color: darken(@baseColor, 0) ;
@@ -35,5 +36,18 @@
         color: darken(@blue, 25)!important ;
         }
         
+    }
+    
+}
+
+@media (max-width: 992px) { 
+    .navbar-brand{
+        margin: auto;
+    }
+    #logo{
+        height: 65px;
+    }
+    .navbar-collapse{
+        text-align: center;
     }
 }
