@@ -215,6 +215,9 @@ body {
   .navbar-collapse {
     text-align: center;
   }
+  .navbar-collapse a {
+    padding: 20px;
+  }
 }
 /*-------------1400------------*/
 @media screen and (max-width: 1400px) {
