@@ -276,9 +276,12 @@ body {
   .contenedor {
     max-width: 768px;
   }
+  .text-1 {
+    margin-bottom: 2rem;
+  }
 }
 @media screen and (max-width: 1080px) {
   .contenedor {
-    padding: 5vh 0;
+    padding: 2.8vh 0;
   }
 }
