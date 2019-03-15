@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+
 import './App.css';
 
-
-import Navigation from './components/Navigation';
+import Navegacion from './components/Navegacion.js';
+//import Navigation from './components/Navigation';
 import Featuremine from './components/Featuremine';
 import Modular from './components/Modular';
 import Setup from './components/Setup';
@@ -13,11 +14,12 @@ import Introspect from './components/Introspect';
 import Ecosystem from './components/Ecosystem';
 
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>  
+        <Navegacion/>  
         <Featuremine/>
         <Modular/>
         <Setup/>

@@ -1,0 +1,39 @@
+.navegacion{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 54px;
+    background-color: white;
+    position: fixed;
+}
+.navbar{
+    background: lighten(@baseColor, 100);
+    max-width: @contenedor!important;
+    z-index: 200;
+    position: fixed;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    border: none;
+}
+.navbar-nav{
+    a{
+        padding-right: .8rem;
+        padding-left: .8rem;
+        color: lighten(@baseColor, 50) ;
+        &:hover { 
+            color: darken(@baseColor, 0) ;
+            }  
+    }
+    .explore {
+        color: @blue!important;
+        &:hover { 
+        color: darken(@blue, 25)!important ;
+        }
+        
+    }
+}

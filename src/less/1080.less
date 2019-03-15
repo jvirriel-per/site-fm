@@ -16,18 +16,14 @@
         font-size: (@baseTextSize * .6) ;
         margin-bottom: (4rem) * .6;
     }*/
+   
     #logo{
       margin: auto;
     }
     .contenedor{
-        width: @contenedor *.6!important;
+        max-width: @contenedor *.6;
     }
-    .c-5{
-        width: @columnas5 *.6!important;
-      }
-      .c-7{
-        width: @columnas7 *.6!important;
-      }
+   
 
       .topnav{ 
     
@@ -66,5 +62,9 @@
        max-width: 1280px;
        padding: 0 10px;
     }
+}
+
+@media screen and (min-width: 521px) and (max-width: 1079px) { 
+  
 }
  

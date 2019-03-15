@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Logo from '../assets/logo_blue.svg';
 import Points from '../assets/active.svg';
 
