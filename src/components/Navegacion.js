@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, Navbar, Nav, Brand,Toggle, Collapse, Link, NavDropdown, link, Item, Divider,} from 'react-bootstrap';
+import { Container, Navbar, Nav, Brand,Toggle, Collapse, NavDropdown, Item, Divider,} from 'react-bootstrap';
 import Logo from '../assets/logo_blue.svg';
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 const Navegacion = () => (
   <div className="navegacion">
@@ -10,7 +12,7 @@ const Navegacion = () => (
   <Navbar.Collapse id="responsive-navbar-nav">
    
     <Nav className="ml-auto">
-      <Nav.Link href="#About">About</Nav.Link>
+      <Nav.Link href="/About">About</Nav.Link>
       <Nav.Link href="#Sales">Sales</Nav.Link>
       <Nav.Link href="#Support">Support</Nav.Link>
       <Nav.Link eventKey={2} href="#Explore" className="explore">
